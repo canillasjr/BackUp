@@ -1,0 +1,132 @@
+@media screen and (min-width: 768px){
+	.menu-mobile-container,
+	.row.mobile-version{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 1234px) and (min-width: 768px){
+	.site-footer,
+	header{
+		padding: 30px 2em;
+	}
+	.full-image-side{
+		.text-container{
+			.content-text{
+				padding: 0 2em;
+			}
+		}
+	}
+}
+@media screen and (max-width: 820px) and (min-width: 768px){
+	.main-navigation{
+		#menu-menu-1{
+			li{
+				a{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1340px){
+	.about-us-section{
+		.section-about-content{
+			padding: 0 1em;
+		}
+		.section-btn{
+			margin-bottom: 50px;
+		}
+		.col-md-6.custom-bg{
+			overflow: auto;
+		}
+	}
+}
+@media screen and (max-width: 1004px) and (min-width: 767px){
+	.main-navigation ul li.menu-item-has-children:hover > ul.sub-menu > li.menu-item-has-children > ul{
+		right: 222px !important;
+	}
+}
+@media screen and (max-width: 991px){
+	.contact-section{
+		.row{
+			display: block;
+			.contact-section-box-text{
+				padding: 4em 1em 1.5em 1em;
+				.contact-header{
+					padding: 0;
+					text-align: center;
+				}
+				.content-contact-box{
+					max-width: 308px;
+				    margin-left: auto;
+				    margin-right: auto;
+				}
+			}
+			.contact-section-form{
+				padding-bottom: 40px;
+				.row{
+					max-width: none;
+					.solution-header{
+						padding-top: 40px;
+						text-align: center;
+					}
+					.cform-submit{
+						margin-left: auto;
+						margin-right: auto;
+						display: block;
+						margin-bottom: 0;
+					}
+					.ajax-loader{
+						display: block;
+						margin: 0 auto;
+					}
+					.wpcf7-mail-sent-ok{
+						position: inherit !important;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.full-image-side{
+		display: block;
+	}
+	.full-image-container{
+		img{
+			display: none !important;
+		}
+	}
+}
+@media screen and (max-width: 1325px) {
+	.banner-section{
+		padding: 15% 4em;
+	}
+}
+
+// desktop-revision
+
+.row.full-image-side{
+	.text-container{
+		padding: 4em 0;
+	}
+} 
+@media screen and (min-width: 992px){
+	.full-image-container{
+		overflow: hidden;
+		img{
+			min-width: 609px;
+		}
+	}
+	.page-id-31,
+	.page-id-33,
+	.page-id-29,
+	.page-id-27{
+		.full-image-container{
+			overflow: hidden;
+			img{
+				min-width: 743px;
+			}
+		}
+	}
+}
